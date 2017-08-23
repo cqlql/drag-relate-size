@@ -1,0 +1,27 @@
+{
+  "name": "zoom-touch",
+  "version": "0.0.1",
+  "description": "触摸放大，包括看图、裁图",
+  "author": "陈桥黎<cql.ql.qq.com>",
+  "license": "MIT",
+  "main": "./dist/index.cjs.js",
+  "scripts": {
+    "build": "gulp cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqlql/drag-relate-size.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^3.9.1",
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "dependencies": {}
+}
